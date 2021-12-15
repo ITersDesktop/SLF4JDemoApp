@@ -25,10 +25,17 @@
         </dependency>-->
 
         <!-- Logback framework -->
-        <dependency>
+        <!--<dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
+        </dependency>-->
+
+        <!-- Log4j 2.x framework -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.16.0</version>
         </dependency>
 
         <!-- Java util logging framework -->
